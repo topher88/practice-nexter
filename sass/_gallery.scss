@@ -72,10 +72,12 @@
     object-fit: cover;
     width: 100%;
     height: 100%;
+    box-sizing: content-box;
+    border: 1px dotted transparent;
     transition: all .2s;
 
     &:hover {
-      // transform: scale(1.08);
+      border: 1px dotted $color-grey-dark-2;
     }
   }
 }
